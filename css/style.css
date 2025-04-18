@@ -1,0 +1,511 @@
+.header {
+  padding-top: 80px;
+  padding-bottom: 20px;
+  background-image: url(../images/Asset%201.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  opacity: 0.5;
+}
+#header-text {
+  font-family: Arial, sans-serif;
+  font-size: 30px;
+  text-align: center;
+  color: #a52a2a;
+}
+
+/*my photo*/
+
+img.feature {
+  border: 5px solid #d97904;
+  border-bottom-right-radius: 80px;
+  border-top-left-radius: 25px;
+}
+
+main {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #e8e0d6;
+}
+/*containers index page 1*/
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap; /* Allows wrapping to the next row */
+  gap: 20px; /* Adds space between items */
+  justify-content: center; /* Center the divs horizontally */
+  padding: 10px; /* Add spacing to avoid touching screen edges */ /* Adds space between items */
+}
+
+.flex-container > div {
+  background-color: #f2af50;
+  color: #ffffff;
+  flex: 1 1 45%;
+  padding: 10px;
+  text-align: center;
+  border-radius: 25px;
+  border-inline-style: solid;
+  border-inline-color: #d97904;
+  box-sizing: border-box; /* Ensures padding/margin don’t break width */
+
+  /*style idea from here : https://www.w3schools.com/cssref/tryit.php?filename=trycss_border-inline-color*/
+}
+h1 {
+  font-family: Arial, sans-serif;
+}
+p {
+  font-family: Helvetica, sans-serif;
+  font-size: 15px;
+}
+h2 {
+  font-family: Helvetica, sans-serif;
+  color: brown;
+  border-bottom: solid #d97904 5px;
+  font-size: 20px;
+}
+
+h3 {
+  font-family: Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+q {
+  color: #298c13;
+  font-style: italic;
+  text-align: left;
+}
+
+.underline {
+  border-bottom: solid #d97904 5px;
+}
+figcaption {
+  font-family: Helvetica, sans-serif;
+  border-bottom: solid #d97904 5px;
+  color: brown;
+  font-style: italic;
+  font-weight: bold;
+}
+figcaption p {
+  font-weight: 100;
+  font-style: normal;
+  font-family: Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+.underline2 {
+  border-bottom: 4px dotted #d97904;
+}
+
+#meal-list-home {
+  text-align: left;
+  font-family: Helvetica, sans-serif;
+  font-style: normal;
+}
+#stPatrick {
+  font-family: Helvetica, sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/*nav bar*/
+.navigation {
+  margin-left: 100px;
+  margin-right: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+header {
+  background-color: #8f6b40;
+  border-bottom: 9px solid #ff6600;
+  color: white;
+}
+
+nav {
+  float: right;
+  margin-bottom: 30px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 50px;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+}
+
+/*recipe page 2*/
+
+.flex-recipeContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  padding: 10px;
+}
+
+div > img {
+  margin-top: 20px;
+  max-width: 70%;
+  height: auto;
+  border: 2px solid;
+  color: #8f6b40;
+}
+
+.flex-recipeContainer > div {
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+.flex-menu {
+  font-family: Helvetica, sans-serif;
+  font-size: 15px;
+  background-color: brown;
+  width: 530px;
+  height: 484px;
+  border-radius: 50px;
+  box-shadow: 10px 10px 10px #8f6b40;
+}
+
+#recipe-link {
+  font-family: Helvetica, sans-serif;
+  font-size: 15px;
+  text-align: center;
+  color: brown;
+  a:visited {
+    color: #8f6b40;
+  }
+  a:active {
+    color: brown;
+  }
+  a:hover {
+    background-color: #d97904;
+  }
+  a:link {
+    color: brown;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    border: 3px solid #d97904;
+    border-radius: 20px;
+    text-decoration: none;
+  }
+}
+
+/*Link style*/
+.link {
+  font-family: Helvetica, sans-serif;
+  font-size: 15px;
+  text-align: center;
+  color: brown;
+
+  a:visited {
+    color: #8f6b40;
+  }
+
+  a:active {
+    color: brown;
+  }
+  a:hover {
+    background-color: #d97904;
+  }
+  a:link {
+    color: brown;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    border: 3px solid #d97904;
+    border-radius: 20px;
+    text-decoration: none;
+  }
+}
+
+/*footer*/
+.footer {
+  border-top: 9px solid brown;
+  border-bottom: 9px solid #ff6600;
+  padding-left: 88px;
+  padding-right: 88px;
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  background-color: #8f6b40;
+}
+
+/*table home page*/
+
+#table {
+  border: 3px solid brown;
+  border-collapse: collapse;
+  width: 80%;
+  margin: 6% auto;
+  margin-left: auto;
+}
+#th {
+  height: 37px;
+  border: 3px solid brown;
+  background-color: #d97904;
+  font-family: Helvetica, sans-serif;
+  font-size: 20px;
+}
+#tbody tr {
+  background-color: #f2af50;
+  color: brown;
+  font-weight: bold;
+  font-family: Helvetica, sans-serif;
+  font-size: 15px;
+}
+td:hover {
+  background-color: coral;
+}
+
+/*table, meal plan page 3*/
+
+div h2 {
+  text-align-last: center;
+  color: brown;
+  font-family: Helvetica, sans-serif;
+  font-size: 30px;
+  box-shadow: 1px 3px 22px #8f6b40;
+}
+
+#weekly-plan {
+  color: brown;
+  text-align: center;
+  letter-spacing: 10px;
+  font-family: Helvetica, sans-serif;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+table {
+  width: 64%;
+  margin: 6% auto;
+  margin-left: auto;
+}
+table,
+th,
+td {
+  border-right: solid #000000 1px;
+  border-left: solid black 1px;
+  border-top: solid black 1px;
+  border-bottom: solid black 1px;
+}
+thead {
+  background-color: brown;
+  color: white;
+  font-family: Helvetica, sans-serif;
+  font-size: 15px;
+}
+tbody td {
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  font-size: 15px;
+  color: #151716;
+}
+tbody th {
+  text-align: left;
+  font-family: Helvetica, sans-serif;
+  font-size: 15px;
+  color: #151716;
+}
+li {
+  font-family: Helvetica, sans-serif;
+  color: #151716;
+  font-size: 15px;
+}
+
+table td:nth-of-type(3) {
+  font-style: normal;
+}
+tbody tr:nth-of-type(even) {
+  background-color: #8f6b40;
+}
+tbody tr:nth-of-type(odd) {
+  background-color: #d97904;
+}
+
+aside {
+  color: #d97904;
+
+  margin-bottom: 2%;
+  margin-right: 19%;
+  width: 33%;
+  padding-left: 6px;
+
+  margin-left: 16px;
+  float: right;
+  font-style: italic;
+}
+
+/*coctail picture with list*/
+.coctails {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.stPatricks {
+  border-bottom: solid #d97904 5px;
+}
+aside > figure > img {
+  border-radius: 25px;
+  border: 1px solid;
+  margin-bottom: 10px;
+  padding: 10px;
+  box-shadow: 5px 5px 5px #298c13;
+}
+aside > figure > figcaption {
+  border-bottom: solid #d97904 5px;
+  color: brown;
+  font-family: Helvetica, sans-serif;
+  font-size: medium;
+  font-style: normal;
+  font-weight: bold;
+  text-align-last: left;
+}
+
+.scrollUp {
+  font-family: Helvetica, sans-serif;
+  font-size: 15px;
+  text-align: center;
+  color: brown;
+  a:visited {
+    color: #8f6b40;
+  }
+  a:active {
+    color: brown;
+  }
+  a:hover {
+    background-color: #d97904;
+  }
+  a:link {
+    color: brown;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    border: 3px solid #d97904;
+    border-radius: 20px;
+    text-decoration: none;
+  }
+}
+
+
+/*///////////Assignment2//////////////////////////////////////////////////////////////////*/
+
+
+
+/*NEW LOGO POSITION*/
+
+
+.logo {
+
+  text-align: center;
+  
+   
+}
+
+  /*///// MEXICAN  second page grid image*/
+
+.menu-image {
+  width: 200px;
+  height: 150px;
+  object-fit: cover; 
+  display: block;
+  margin: 0 auto;
+}
+
+
+.menu-title {
+  font-size: 15px;         
+  font-weight: bold;       
+  text-align: center;       
+  margin-bottom: 10px;      
+  font-family: Helvetica, sans-serif;  
+}
+.menu-description {
+  font-size: 15px;;            
+  color: #555;               
+  text-align: center;        
+  margin-top: 8px;           
+  font-style: italic;        
+}
+
+
+.ui.vertical.segment {
+  background-color: #1b1c1d;
+  color: brown !important;
+}
+
+.ui.right.floated.header {
+   
+  background-image: url(../images/signup_bgr.png);
+    
+}
+.card-align {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 20px; /* vertically center it */
+}
+
+/*NAV MENU*/
+
+.ui.menu .item:hover {
+  
+  color: brown !important; 
+
+}
+
+
+.ui.inverted.secondary.pointing.menu {
+  font-family:  Arial,  sans-serif;
+  font-size: 17px;
+  color: white;
+  font-weight:bold;
+  background-color: #d97904;
+  border: none !important;
+  margin:-15px;
+  padding-top: 20px;
+  padding-left: 20px;
+   padding-bottom: 10px;
+
+}
+
+
+
+/*///////////ITALIAN PAGE////////////////*/
+.center-content {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*justify-content: center;*/
+
+    height: 100vh; /* makes it fill the full screen height */
+    text-align: center;
+}
+
+
+#gordon {
+  color: brown;
+  text-align: center;
+  letter-spacing: 10px;
+  font-size: 20px !important;
+  text-decoration: underline;
+  text-transform: uppercase;
+ 
+}
+
+.columns {
+  background-color: brown !important;
+}
+
+
